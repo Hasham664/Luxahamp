@@ -1,0 +1,36 @@
+
+@import "tailwindcss";
+@import 'swiper/css';
+@import 'swiper/css/pagination';
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+
+body {
+      font-family: "Plus Jakarta Sans";
+
+}
+
+.input {
+  @apply border border-gray-400 rounded px-3 py-2 w-full bg-white;
+}
+.btn {
+  @apply bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700;
+}
+
+.Mycontainer{
+  max-width: 1400px;
+  width: 90%;
+  margin: auto;
+  box-sizing: border-box;
+}
